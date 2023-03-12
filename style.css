@@ -4,8 +4,7 @@ html, * {
 }
 
 body {
-  width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 
   background-color: hsl(212, 45%, 89%);
   font-family: Outfit Noto Sans;
@@ -17,7 +16,7 @@ body {
   gap: 24px;
 }
 
-.wrapper {
+.container {
   width: 280px;
   padding: 16px 16px 24px;
   border-radius: 12px;
@@ -39,26 +38,17 @@ body {
   text-align: center;
 }
 
-
-.typo-title {
+.title {
   font-size: 22px;
   font-weight: 700;
 
   margin-top: 16px;
 }
 
-.typo-body {
+.desc {
   font-size: 15px;
   font-weight: 400;
 
   padding: 16px;
   color: hsl(220, 15%, 55%);
-}
-
-.attribution {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-
-  margin-top: 20px;
 }
